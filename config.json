@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "ultimaActualizacion": "2024-01-15T12:00:00Z",
+  
+  "apariencia": {
+    "tema": "demoniaco",
+    "colores": {
+      "primario": "#8b0000",
+      "secundario": "#DC143C",
+      "acento": "#ff4500",
+      "texto": "#ffd700",
+      "fondo": "#0a0a0a",
+      "bordes": "#DC143C"
+    },
+    "banners": {
+      "navidad": false,
+      "anoNuevo": false,
+      "independencia": false,
+      "sanValentin": false,
+      "halloween": true
+    }
+  },
+
+  "productos": {
+    "bebidas": [
+      {
+        "id": 1,
+        "nombre": "LEVIATÁN",
+        "descripcion": "Sumérgete en las profundidades de la tentación azul oscura. Sabor a mora azul que te arrastrará al abismo. (475ml)",
+        "sabor": "Mora azul",
+        "precio": 50,
+        "disponible": true,
+        "toppings": [
+          { "id": 1, "nombre": "Lágrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true },
+          { "id": 2, "nombre": "Elixir Prohibido (Vodka 2.5 oz)", "precio": 15, "disponible": true }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "INFIERNO",
+        "descripcion": "Pasión ardiente con sabor a frutos rojos. (475ml)",
+        "sabor": "Frutos rojos",
+        "precio": 50,
+        "disponible": true,
+        "toppings": [
+          { "id": 1, "nombre": "Lágrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true },
+          { "id": 2, "nombre": "Elixir Prohibido (Ron Blanco 2.5 oz)", "precio": 15, "disponible": true }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "id": 5,
+        "nombre": "IRA DIVINA",
+        "descripcion": "Energía Divina toma un Café Cold Brew. (475ml)",
+        "sabor": "Café",
+        "precio": 40,
+        "disponible": true,
+        "opciones": {
+          "LECHE": ["Normal (+$10)", "Deslactosada (+$10)", "Sin leche"],
+          "ENDULZANTE": ["Azúcar", "Sustituto", "Sin endulzante"]
+        },
+        "toppings": [
+          { "id": 5, "nombre": "Gemas del Infierno (Coffee Jelly)", "precio": 15, "disponible": true }
+        ]
+      }
+    ],
+    "tes": [
+      {
+        "id": 7,
+        "nombre": "REDENCIÓN",
+        "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea. (475ml)",
+        "sabor": "Té negro, Té verde, Té de frutos del bosque, Té de Jamaica (pregunta por disponibilidad)",
+        "precio": 35,
+        "disponible": true,
+        "opciones": {
+          "ENDULZANTE": ["Azúcar", "Sustituto", "Sin endulzante"]
+        },
+        "toppings": [
+          { "id": 1, "nombre": "Lágrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true }
+        ]
+      }
+    ]
+  },
+
+  "ubicaciones": [
+    {
+      "id": 1,
+      "direccion": "Calle Coral 120, colonia Estrella, CDMX",
+      "disponible": true,
+      "horarios": {
+        "Lunes": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Martes": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Miércoles": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Jueves": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Viernes": { "abre": "16:00", "cierra": "02:00", "disponible": true },
+        "Sábado": { "abre": "12:00", "cierra": "02:30", "disponible": true },
+        "Domingo": { "abre": "12:00", "cierra": "18:00", "disponible": true }
+      }
+    }
+  ],
+
+  "configuracion": {
+    "pedidoMinimo": 3,
+    "telefonoWhatsApp": "5611649344",
+    "verificacionEdad": true,
+    "modoMantenimiento": false,
+    "mensajeMantenimiento": "Estamos cerrados por mantenimiento. Volvemos pronto.",
+    "datosBancarios": {
+      "banco": "BBVA",
+      "titular": "Eric Daniel Gutiérrez Arana",
+      "clabe": "012 261 01584933343 3"
+    }
+  }
+}
