@@ -2,36 +2,28 @@
   "version": "1.0",
   "ultimaActualizacion": "2024-01-15T12:00:00Z",
   "apariencia": {
-    "tema": "demoniaco",
     "colores": {
       "primario": "#8b0000",
-      "secundario": "#DC143C",
-      "acento": "#ff4500",
+      "secundario": "#dc143c",
       "texto": "#ffd700",
-      "fondo": "#0a0a0a",
-      "bordes": "#DC143C"
-    },
-    "banners": {
-      "navidad": false,
-      "anoNuevo": false,
-      "independencia": false,
-      "sanValentin": false,
-      "halloween": true
+      "primarioAngelical": "#4169e1",
+      "secundarioAngelical": "#1e90ff",
+      "textoAngelical": "#c0c0c0"
     }
   },
   "productos": {
     "bebidas": [
       {
         "id": 1,
-        "nombre": "LEVIATÁN",
-        "descripcion": "Sumérgete en las profundidades de la tentación azul oscura. Sabor a mora azul que te arrastrará al abismo. (475ml)",
+        "nombre": "LEVIATï¿½N",
+        "descripcion": "Sumï¿½rgete en las profundidades de la tentaciï¿½n azul oscura. Sabor a mora azul que te arrastrarï¿½ al abismo. (475ml)",
         "sabor": "Mora azul",
         "precio": 50,
         "disponible": true,
         "toppings": [
           {
             "id": 1,
-            "nombre": "Lágrimas de Demonio (Bubble Jelly)",
+            "nombre": "Lï¿½grimas de Demonio (Bubble Jelly)",
             "precio": 15,
             "disponible": true
           },
@@ -46,14 +38,14 @@
       {
         "id": 2,
         "nombre": "INFIERNO",
-        "descripcion": "Pasión ardiente con sabor a frutos rojos. (475ml)",
+        "descripcion": "Pasiï¿½n ardiente con sabor a frutos rojos. (475ml)",
         "sabor": "Frutos rojos",
         "precio": 50,
         "disponible": true,
         "toppings": [
           {
             "id": 1,
-            "nombre": "Lágrimas de Demonio (Bubble Jelly)",
+            "nombre": "Lï¿½grimas de Demonio (Bubble Jelly)",
             "precio": 15,
             "disponible": true
           },
@@ -70,8 +62,8 @@
       {
         "id": 5,
         "nombre": "IRA DIVINA",
-        "descripcion": "Energía Divina toma un Café Cold Brew. (475ml)",
-        "sabor": "Café",
+        "descripcion": "Energï¿½a Divina toma un Cafï¿½ Cold Brew. (475ml)",
+        "sabor": "Cafï¿½",
         "precio": 40,
         "disponible": true,
         "opciones": {
@@ -81,7 +73,7 @@
             "Sin leche"
           ],
           "ENDULZANTE": [
-            "Azúcar",
+            "Azï¿½car",
             "Sustituto",
             "Sin endulzante"
           ]
@@ -99,14 +91,14 @@
     "tes": [
       {
         "id": 7,
-        "nombre": "REDENCIÓN",
+        "nombre": "REDENCIï¿½N",
         "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea. (475ml)",
-        "sabor": "Té negro, Té verde, Té de frutos del bosque, Té de Jamaica (pregunta por disponibilidad)",
+        "sabor": "Tï¿½ negro, Tï¿½ verde, Tï¿½ de frutos del bosque, Tï¿½ de Jamaica (pregunta por disponibilidad)",
         "precio": 35,
         "disponible": true,
         "opciones": {
           "ENDULZANTE": [
-            "Azúcar",
+            "Azï¿½car",
             "Sustituto",
             "Sin endulzante"
           ]
@@ -114,7 +106,7 @@
         "toppings": [
           {
             "id": 1,
-            "nombre": "Lágrimas de Demonio (Bubble Jelly)",
+            "nombre": "Lï¿½grimas de Demonio (Bubble Jelly)",
             "precio": 15,
             "disponible": true
           }
@@ -138,7 +130,7 @@
           "cierra": "22:00",
           "disponible": true
         },
-        "Miércoles": {
+        "Miï¿½rcoles": {
           "abre": "16:00",
           "cierra": "22:00",
           "disponible": true
@@ -153,7 +145,7 @@
           "cierra": "02:00",
           "disponible": true
         },
-        "Sábado": {
+        "Sï¿½bado": {
           "abre": "12:00",
           "cierra": "02:30",
           "disponible": true
@@ -164,22 +156,16 @@
           "disponible": true
         }
       }
-    },
-    {
-      "direccion": "Joyas 148, colonia Estrella C.P. 07810",
-      "disponible": true,
-      "horarios": {}
     }
   ],
   "configuracion": {
     "pedidoMinimo": 3,
     "telefonoWhatsApp": "5611649344",
-    "verificacionEdad": true,
     "modoMantenimiento": false,
     "mensajeMantenimiento": "Estamos cerrados por mantenimiento. Volvemos pronto.",
     "datosBancarios": {
       "banco": "BBVA",
-      "titular": "Eric Daniel Gutiérrez Arana",
+      "titular": "Eric Daniel Gutiï¿½rrez Arana",
       "clabe": "012 261 01584933343 3"
     }
   }
