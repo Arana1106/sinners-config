@@ -98,11 +98,11 @@
   "configuracion": {
     "pedidoMinimo": 3,
     "telefonoWhatsApp": "5611649344",
-    "modoMantenimiento": true,
+    "modoMantenimiento": false,
     "mensajeMantenimiento": "Estamos cerrados por mantenimiento. Volvemos pronto.",
     "datosBancarios": {
       "banco": "BBVA",
-      "titular": "Eric Daniel Gutierrez Arana",
+      "titular": "Eric Daniel Guti�rrez Arana",
       "clabe": "012 261 01584933343 3"
     }
   }
