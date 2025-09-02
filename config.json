@@ -98,7 +98,7 @@
   "configuracion": {
     "pedidoMinimo": 3,
     "telefonoWhatsApp": "5611649344",
-    "modoMantenimiento": false,
+    "modoMantenimiento": true,
     "mensajeMantenimiento": "Estamos cerrados por mantenimiento. Volvemos pronto.",
     "datosBancarios": {
       "banco": "BBVA",
