@@ -53,8 +53,8 @@
   },
   "ubicaciones": [
     {
-      "id": 1,
       "direccion": "Calle Coral 120, colonia Estrella, CDMX",
+      "mapsLink": "https://maps.app.goo.gl/ifWMdx3PxqtUkQvb6",
       "disponible": true,
       "horarios": {
         "Lunes": {
@@ -67,7 +67,7 @@
           "cierra": "22:00",
           "disponible": true
         },
-        "Mi�rcoles": {
+        "Miercoles": {
           "abre": "16:00",
           "cierra": "22:00",
           "disponible": true
@@ -82,7 +82,7 @@
           "cierra": "02:00",
           "disponible": true
         },
-        "S�bado": {
+        "Sabado": {
           "abre": "12:00",
           "cierra": "02:30",
           "disponible": true
