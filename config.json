@@ -14,40 +14,103 @@
   "productos": {
     "bebidas": [
       {
-        "nombre": "LEVIATÁN",
-        "precio": 50,
-        "descripcion": "Sumérgete en las profundidades de la tentación azul. Sabor Blueberry que te arrastrará al abismo. (475ml)",
+        "id": 1,
+        "nombre": "LEVIAT�N",
+        "descripcion": "Sum�rgete en las profundidades de la tentaci�n azul oscura. Sabor a mora azul que te arrastrar� al abismo. (475ml)",
         "sabor": "Mora azul",
+        "precio": 50,
         "disponible": true,
-        "toppings": []
+        "toppings": [
+          {
+            "id": 1,
+            "nombre": "L�grimas de Demonio (Bubble Jelly)",
+            "precio": 15,
+            "disponible": true
+          },
+          {
+            "id": 2,
+            "nombre": "Elixir Prohibido (Vodka 2.5 oz)",
+            "precio": 15,
+            "disponible": true
+          }
+        ]
       },
       {
+        "id": 2,
         "nombre": "INFIERNO",
-        "precio": 50,
-        "descripcion": "Pasión ardiente con sabor a frutos rojos. (475ml)",
+        "descripcion": "Pasi�n ardiente con sabor a frutos rojos. (475ml)",
         "sabor": "Frutos rojos",
+        "precio": 50,
         "disponible": true,
-        "toppings": []
+        "toppings": [
+          {
+            "id": 1,
+            "nombre": "L�grimas de Demonio (Bubble Jelly)",
+            "precio": 15,
+            "disponible": true
+          },
+          {
+            "id": 2,
+            "nombre": "Elixir Prohibido (Ron Blanco 2.5 oz)",
+            "precio": 15,
+            "disponible": true
+          }
+        ]
       }
     ],
     "cafes": [
       {
+        "id": 5,
         "nombre": "IRA DIVINA",
+        "descripcion": "Energ�a Divina toma un Caf� Cold Brew. (475ml)",
+        "sabor": "Caf�",
         "precio": 40,
-        "descripcion": "Energía Divina toma un Café Cold Brew. (475ml)",
-        "sabor": "Café",
         "disponible": true,
-        "toppings": []
+        "opciones": {
+          "LECHE": [
+            "Normal (+$10)",
+            "Deslactosada (+$10)",
+            "Sin leche"
+          ],
+          "ENDULZANTE": [
+            "Az�car",
+            "Sustituto",
+            "Sin endulzante"
+          ]
+        },
+        "toppings": [
+          {
+            "id": 5,
+            "nombre": "Gemas del Infierno (Coffee Jelly)",
+            "precio": 15,
+            "disponible": true
+          }
+        ]
       }
     ],
     "tes": [
       {
-        "nombre": "REDENCIÓN",
-        "precio": 35,
+        "id": 7,
+        "nombre": "REDENCI�N",
         "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea. (475ml)",
-        "sabor": "Té negro, Té verde, Té de Durazno, Té de Jamaica (pregunta por disponibilidad)",
+        "sabor": "T� negro, T� verde, T� de frutos del bosque, T� de Jamaica (pregunta por disponibilidad)",
+        "precio": 35,
         "disponible": true,
-        "toppings": []
+        "opciones": {
+          "ENDULZANTE": [
+            "Az�car",
+            "Sustituto",
+            "Sin endulzante"
+          ]
+        },
+        "toppings": [
+          {
+            "id": 1,
+            "nombre": "L�grimas de Demonio (Bubble Jelly)",
+            "precio": 15,
+            "disponible": true
+          }
+        ]
       }
     ]
   },
@@ -93,6 +156,11 @@
           "disponible": true
         }
       }
+    },
+    {
+      "direccion": "Joyas 148, colonia Estrella C.P. 07810",
+      "disponible": true,
+      "horarios": {}
     }
   ],
   "configuracion": {
