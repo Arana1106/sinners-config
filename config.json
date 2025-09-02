@@ -1,109 +1,172 @@
 {
-  "version": "1.0",
-  "ultimaActualizacion": "2024-01-15T12:00:00Z",
-  "apariencia": {
-    "colores": {
-      "primario": "#8b0000",
-      "secundario": "#dc143c",
-      "texto": "#ffd700",
-      "primarioAngelical": "#4169e1",
-      "secundarioAngelical": "#1e90ff",
-      "textoAngelical": "#c0c0c0"
-    }
-  },
   "productos": {
     "bebidas": [
       {
+        "id": 1,
         "nombre": "LEVIATAN",
-        "precio": 50,
-        "descripcion": "Sumergete en las profundidades de la tentacion azul. Sabor a mora azul que te arrastrara al abismo. (475ml)",
+        "descripcion": "Sumergete en las profundidades de la tentacion azul oscura",
         "sabor": "Mora azul",
+        "precio": 50,
         "disponible": true,
-        "toppings": []
+        "toppings": [
+          { "nombre": "Lagrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true },
+          { "nombre": "Elixir Prohibido (Vodka 2.5 oz)", "precio": 15, "disponible": true }
+        ]
       },
       {
-        "nombre": "INFIERNO",
-        "precio": 50,
-        "descripcion": "Pasion ardiente con sabor a frutos rojos. (475ml)",
+        "id": 2,
+        "nombre": "INFIERNO", 
+        "descripcion": "Pasion ardiente con sabor a frutos rojos",
         "sabor": "Frutos rojos",
+        "precio": 50,
         "disponible": true,
-        "toppings": []
+        "toppings": [
+          { "nombre": "Lagrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true },
+          { "nombre": "Elixir Prohibido (Ron Blanco 2.5 oz)", "precio": 15, "disponible": true }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "JALURIA",
+        "descripcion": "Entre mas lo resistes mas deseas probar su sabor a manzana verde",
+        "sabor": "Manzana verde", 
+        "precio": 50,
+        "disponible": true,
+        "toppings": [
+          { "nombre": "Lagrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true },
+          { "nombre": "Elixir Prohibido (Ron Blanco 2.5 oz)", "precio": 15, "disponible": true }
+        ]
+      },
+      {
+        "id": 4, 
+        "nombre": "ASMODEO",
+        "descripcion": "Te hara sentir la lujuria en un sorbo por su sabor a frutos del bosque",
+        "sabor": "Frutos del bosque",
+        "precio": 50,
+        "disponible": true,
+        "toppings": [
+          { "nombre": "Lagrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true },
+          { "nombre": "Elixir Prohibido (Vodka 1.5 oz/Ron Blanco 1 oz)", "precio": 15, "disponible": true }
+        ]
       }
     ],
     "cafes": [
       {
+        "id": 5,
         "nombre": "IRA DIVINA",
+        "descripcion": "Energia Divina toma un Cafe Cold Brew",
+        "sabor": "Cafe",
         "precio": 40,
-        "descripcion": "Energia Divina toma un Cafe Cold Brew. (475ml)",
-        "sabor": "Caf�",
         "disponible": true,
-        "toppings": []
+        "opciones": {
+          "LECHE": ["Normal (+$10)", "Deslactosada (+$10)", "Sin leche"],
+          "ENDULZANTE": ["Azucar", "Sustituto", "Sin endulzante"]
+        },
+        "toppings": [
+          { "nombre": "Gemas del Infierno (Coffee Jelly)", "precio": 15, "disponible": true }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "PACTUM",
+        "descripcion": "Pacto divino, tranquil@ solo es un suave Cold Brew descafeinado",
+        "sabor": "Cafe descafeinado",
+        "precio": 40, 
+        "disponible": true,
+        "opciones": {
+          "LECHE": ["Normal (+$10)", "Deslactosada (+$10)", "Sin leche"],
+          "ENDULZANTE": ["Azucar", "Sustituto", "Sin endulzante"]
+        },
+        "toppings": [
+          { "nombre": "Gemas del Infierno (Coffee Jelly)", "precio": 15, "disponible": true }
+        ]
       }
     ],
     "tes": [
       {
-        "nombre": "REDENCION",
+        "id": 7,
+        "nombre": "REDENCION", 
+        "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea",
+        "sabor": "Te negro, Te verde, Te de frutos del bosque, Te de Jamaica",
         "precio": 35,
-        "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea. (475ml)",
-        "sabor": "Te negro, Te verde, Te de Duraznos, Te de Jamaica (pregunta por disponibilidad)",
         "disponible": true,
-        "toppings": []
+        "opciones": {
+          "ENDULZANTE": ["Azucar", "Sustituto", "Sin endulzante"]
+        },
+        "toppings": [
+          { "nombre": "Lagrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "REVELACION",
+        "descripcion": "El misterio se devela hoy. ¿Sera tu salvacion o tu perdicion?",
+        "sabor": "Bebida sorpresa del dia",
+        "precio": 35,
+        "disponible": true, 
+        "opciones": {
+          "ENDULZANTE": ["Azucar", "Sustituto", "Sin endulzante"]
+        },
+        "toppings": [
+          { "nombre": "Lagrimas de Demonio (Bubble Jelly)", "precio": 15, "disponible": true }
+        ]
       }
     ]
   },
+  "combos": {
+    "demonios": {
+      "nombre": "TRINIDAD DEL INFIERNO",
+      "productos": ["INFIERNO", "ASMODEO", "REVELACION"],
+      "precioBase": 120,
+      "descripcion": "INFERNO + ASMODEO + REVELACION",
+      "disponible": true
+    },
+    "angeles": {
+      "nombre": "SANTISIMA TRINIDAD", 
+      "productos": ["LEVIATAN", "JALURIA", "REDENCION"],
+      "precioBase": 120,
+      "descripcion": "LEVIATAN + JALURIA + REDENCION",
+      "disponible": true
+    }
+  },
   "ubicaciones": [
     {
-      "direccion": "Calle Coral 120, colonia Estrella, CDMX",
-      "mapsLink": "https://maps.app.goo.gl/ifWMdx3PxqtUkQvb6",
+      "id": 1,
+      "nombre": "CASA MATRIZ - GAM",
+      "direccion": "Calle Coral 120, colonia Estrella, Gustavo A. Madero, 07810 Ciudad de Mexico, CDMX",
+      "mapsLink": "https://www.google.com/maps/search/Calle+Coral+120+Estrella+Gustavo+A+Madero+07810/",
+      "alcaldia": "Gustavo A. Madero",
       "disponible": true,
       "horarios": {
-        "Lunes": {
-          "abre": "16:00",
-          "cierra": "22:00",
-          "disponible": true
-        },
-        "Martes": {
-          "abre": "16:00",
-          "cierra": "22:00",
-          "disponible": true
-        },
-        "Miercoles": {
-          "abre": "16:00",
-          "cierra": "22:00",
-          "disponible": true
-        },
-        "Jueves": {
-          "abre": "16:00",
-          "cierra": "22:00",
-          "disponible": true
-        },
-        "Viernes": {
-          "abre": "16:00",
-          "cierra": "02:00",
-          "disponible": true
-        },
-        "Sabado": {
-          "abre": "12:00",
-          "cierra": "02:30",
-          "disponible": true
-        },
-        "Domingo": {
-          "abre": "12:00",
-          "cierra": "18:00",
-          "disponible": true
-        }
+        "Lunes": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Martes": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Miercoles": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Jueves": { "abre": "16:00", "cierra": "22:00", "disponible": true },
+        "Viernes": { "abre": "16:00", "cierra": "02:00", "disponible": true },
+        "Sabado": { "abre": "12:00", "cierra": "02:30", "disponible": true },
+        "Domingo": { "abre": "12:00", "cierra": "18:00", "disponible": true }
       }
     }
   ],
   "configuracion": {
     "pedidoMinimo": 3,
     "telefonoWhatsApp": "5611649344",
-    "modoMantenimiento": true,
-    "mensajeMantenimiento": "Estamos cerrados por mantenimiento. Volvemos pronto.",
+    "modoMantenimiento": false,
+    "mensajeMantenimiento": "Estamos cerrados por mantenimiento. Volveremos pronto.",
     "datosBancarios": {
       "banco": "BBVA",
       "titular": "Eric Daniel Gutierrez Arana",
       "clabe": "012 261 01584933343 3"
+    }
+  },
+  "apariencia": {
+    "colores": {
+      "primario": "#8b0000",
+      "secundario": "#DC143C",
+      "texto": "#ffd700",
+      "primarioAngelical": "#4169E1",
+      "secundarioAngelical": "#1e90ff",
+      "textoAngelical": "#c0c0c0"
     }
   }
 }
