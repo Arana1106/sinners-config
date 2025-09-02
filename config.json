@@ -90,27 +90,12 @@
     ],
     "tes": [
       {
-        "id": 7,
         "nombre": "REDENCI�N",
-        "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea. (475ml)",
-        "sabor": "T� negro, T� verde, T� de frutos del bosque, T� de Jamaica (pregunta por disponibilidad)",
         "precio": 35,
+        "descripcion": "Todos la buscamos, y todos la necesitamos. Cold Brew Tea. (475ml)",
+        "sabor": "Té negro, Té verde, Té de Duraznos, Té de Jamaica (pregunta por disponibilidad)",
         "disponible": true,
-        "opciones": {
-          "ENDULZANTE": [
-            "Az�car",
-            "Sustituto",
-            "Sin endulzante"
-          ]
-        },
-        "toppings": [
-          {
-            "id": 1,
-            "nombre": "L�grimas de Demonio (Bubble Jelly)",
-            "precio": 15,
-            "disponible": true
-          }
-        ]
+        "toppings": []
       }
     ]
   },
